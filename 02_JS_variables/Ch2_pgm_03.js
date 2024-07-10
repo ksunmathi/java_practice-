@@ -1,8 +1,10 @@
 // // Using a variable
 
-// var score;
-// score = 100;
-// console.log(score);
+var score;
+score1 = 1000;
+score2 = 2000;
+console.log(score1);
+console.log(score2);
 
 
 
