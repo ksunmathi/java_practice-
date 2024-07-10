@@ -1,7 +1,7 @@
 // Using console.log to display information
 
-console.log("Morning");
-console.log("Evening");
+console.log("odd");
+console.log("Even");
 
 
 /* Further Adventures
