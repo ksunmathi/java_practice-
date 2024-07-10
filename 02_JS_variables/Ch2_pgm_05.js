@@ -2,11 +2,14 @@
 
 var message;
 
-message = "Hello World!";
-console.log(message);
+message1 = "Hello"
+message2 = " World!";
+console.log(message1 + message2);
 
-message = 'Congratulations! Your tweet has won a prize...';
-console.log(message);
+message3 = "Congratulations!";
+message4 = "Your tweet";
+message5 = " has won a prize...";
+console.log(message3 + message4 + message5);
 
 
 

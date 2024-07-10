@@ -2,14 +2,22 @@
 
 var bookTitle;
 var bookAuthor;
-
+var bookTitle1;
+var bookAuthor1;
+var bookTitle2;
+var bookAuthor2;
 bookTitle = "The Hobbit";
 bookAuthor = "J. R. R. Tolkien";
-
+bookTitle1 = "The Hamlet";
+bookAuthor1 = "William Shakespear";
+bookTitle2 = "Agni Siragugal";
+bookAuthor2 = "A.B.J";
 console.log(bookTitle + " by " + bookAuthor);
+console.log(bookTitle1 + " by " + bookAuthor1);
+console.log(bookTitle2 + " by " + bookAuthor2);
 
-
-
+for book in books:
+    print(book)
 /* Further Adventures
  *
  * 1) Declare variables for a second book

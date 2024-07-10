@@ -5,6 +5,11 @@ var locationName = "The Dungeon of Doom";
 
 console.log(playerName + " is in " + locationName);
 
+var playerName = "Kandra has health 50";
+var locationName = "is in The Dungeon of Doom";
+
+console.log(playerName + " and " + locationName);
+
 
 
 /* Further Adventures

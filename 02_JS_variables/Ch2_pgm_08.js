@@ -10,6 +10,16 @@ console.log("New score: " + score);
 
 console.log("Way to go!");
 
+var score;
+score = 1000;
+console.log("Your score was  " +  score);
+
+console.log("Great splat!!!");
+score = score + 100;
+console.log("New score: " + score);
+
+console.log("Way to go!");
+
 
 
 /* Further Adventures
