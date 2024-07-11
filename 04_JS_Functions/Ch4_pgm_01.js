@@ -11,7 +11,7 @@ movie1 = {
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
-console.log("Directors: " + movie1.directors);
+console.log("Directors: " + movie1.directorss);
 console.log("------------------------------");
 
 

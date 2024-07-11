@@ -16,8 +16,7 @@ console.log(bookTitle + " by " + bookAuthor);
 console.log(bookTitle1 + " by " + bookAuthor1);
 console.log(bookTitle2 + " by " + bookAuthor2);
 
-for book in books:
-    print(book)
+ 
 /* Further Adventures
  *
  * 1) Declare variables for a second book
