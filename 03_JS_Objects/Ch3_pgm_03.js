@@ -16,7 +16,7 @@ book1 = {
       title : "The Adventures of Tom Sawyer",
       author : "Mark Twain",
       published : 1945
-};
+};           
 
 console.log(book1);
 

@@ -2,7 +2,11 @@
 
 var book;
 
-book = {};
+book = { book1:  "jujusu kaisen",
+         book2:  "attack on titan"
+};
+
+console.log(book)
 
 
 /* Further Adventures
