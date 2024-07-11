@@ -6,6 +6,16 @@ book = {
     title : "The Hobbit"
 };
 
+console.log(book)
+
+var book1;
+ 
+book1 = {
+    title : "The crime"
+};
+
+console.log(book1)
+
 
 
 /* Further Adventures
