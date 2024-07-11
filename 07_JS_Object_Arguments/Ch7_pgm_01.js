@@ -6,7 +6,7 @@ var getPlanetInfo;
 planet1 = {
     name: "Jupiter",
     position: 5,
-    type: "Gas Giant",
+    type: "Gas Giiant",
     radius: 69911,
     sizeRank: 1
 };
