@@ -1,14 +1,16 @@
 // Using a variable as a property value
-
 var book;
 var bookName;
 
 bookName = "The Adventures of Tom Sawyer";
 
 book = {
-    title : bookName
+    title: bookName  
 };
 
+bookName = "Harry Potter and the Philosopher's Stone";
+
+console.log(book);
 
 
 /* Further Adventures

@@ -5,13 +5,19 @@ var book2;
 
 book1 = {
     title : "The Hobbit",
-    author : "J. R. R. Tolkien"
+    author : "J. R. R. Tolkien",
+    year : "2015"
 };
+
+console.log(book1)
 
 book2 = {
 	title : "Northern Lights",
-	author : "Philip Pullman"
+	author : "Philip Pullman",
+    year : "2013"
 };
+
+console.log(book2)
 
 
 

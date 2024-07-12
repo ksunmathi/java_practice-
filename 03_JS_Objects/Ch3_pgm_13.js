@@ -10,7 +10,7 @@ var location = {
     "elevation" : 47.000
   };
   
-  
+   
   
   /* Further Adventures
    *
