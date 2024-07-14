@@ -10,6 +10,19 @@ var questionAndAnswer = {
 	marksForQuestion: 2
 };
 
+var question = questionAndAnswer.question;
+var answers = [
+  questionAndAnswer.answer1,
+  questionAndAnswer.answer2,
+  questionAndAnswer.answer3,
+  questionAndAnswer.answer4
+];
+
+console.log(question);
+answers.forEach((answer, index) => {
+  console.log(`[${index + 1}] ${answer}`);
+});
+
 
 
 /* Further Adventures
