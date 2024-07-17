@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,6 +23,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 = {
+  title: "Attack on Titan",
+  actors: "Eren Yeager",
+  directors: "Yuichiro Hayashi"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -39,6 +46,48 @@ console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
+
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+
+var event1 = {
+  title: "Conference",
+  location: "New York",
+  date: "2024-08-10"
+};
+
+var event2 = {
+  title: "Webinar",
+  location: "Online",
+  date: "2024-09-15"
+};
+
+var event3 = {
+  title: "Workshop",
+  location: "San Francisco",
+  date: "2024-07-25"
+};
+
+console.log("\nEvent information for " + event1.title);
+console.log("------------------------------");
+console.log("Location: " + event1.location);
+console.log("Date: " + event1.date);
+console.log("------------------------------\n");
+
+console.log("Event information for " + event2.title);
+console.log("------------------------------");
+console.log("Location: " + event2.location);
+console.log("Date: " + event2.date);
+console.log("------------------------------\n");
+
+console.log("Event information for " + event3.title);
+console.log("------------------------------");
+console.log("Location: " + event3.location);
+console.log("Date: " + event3.date);
+console.log("------------------------------\n");
 
 
 

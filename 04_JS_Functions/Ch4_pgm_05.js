@@ -2,6 +2,10 @@
 
 var findTotal;
 var displayMenu;
+var number1, number2, result;
+
+number1 = 20;
+number2 = 15;
 
 findTotal = function () {
 	result = number1 + number2;
@@ -13,6 +17,12 @@ displayMenu = function () {
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
+
+findTotal();
+
+console.log("The total is:" + result); 
+
+displayMenu();
 
 
 

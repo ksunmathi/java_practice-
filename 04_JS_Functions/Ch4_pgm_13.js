@@ -2,6 +2,7 @@
 
 var player1;
 var player2;
+var player3;
 var player;
 var showPlayerInfo;
 
@@ -14,6 +15,12 @@ player1 = {
 player2 = {
     name: "Dax",
     place: "The Old Library",
+    health: 40
+};
+
+player3 = {
+    name: "Don Quixote",
+    place: "The Adventures of Tom Sawyer",
     health: 40
 };
 
@@ -30,6 +37,9 @@ player = player1;
 showPlayerInfo();
 
 player = player2;
+showPlayerInfo();
+
+player = player3;
 showPlayerInfo();
 
 

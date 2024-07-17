@@ -6,8 +6,11 @@ displayMenu = function () {
 	console.log("Please choose an option:");
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
+	console.log("(3) Upload image");
+	console.log("(4) Upload document")
 	console.log("(9) Quit");
 };
+
 
 displayMenu();
 

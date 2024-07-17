@@ -1,6 +1,12 @@
-// Using a function to display object properties
+1// Using a function to display object properties
 
 var showMovieInfo;
+
+movie = {
+     title: "Attack on titan",
+     actors: "yeager",
+     directors: "Yuichiro Hayashi"
+}
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -9,6 +15,8 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
+
+showMovieInfo();
 
 
 

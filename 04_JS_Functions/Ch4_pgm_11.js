@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 var movie;
 var showMovieInfo;
 
@@ -24,6 +25,12 @@ movie3 = {
     directors: "J.J.Abrams"
 };
 
+movie4 = {
+    title: "Attack on titan",
+    actors: "yeager",
+    directors: "Yuichiro Hayashi"
+};
+
 showMovieInfo = function () {
     console.log("Movie information for " + movie.title);
     console.log("------------------------------");
@@ -39,6 +46,9 @@ movie = movie2;
 showMovieInfo();
 
 movie = movie3;
+showMovieInfo();
+
+movie = movie4;
 showMovieInfo();
 
 

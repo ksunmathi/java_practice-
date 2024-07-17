@@ -22,6 +22,28 @@ movie = movie1;
 
 showMovieInfo();
 
+var movie2;
+var showMovieInfo;
+var movie;
+
+movie2 = {
+    title: "Attack on titan",
+    actors: "yeager",
+    directors: "Yuichiro Hayashi"
+};
+
+showMovieInfo = function () {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+};
+
+movie = movie2;
+
+showMovieInfo();
+
 
 
 /* Further Adventures

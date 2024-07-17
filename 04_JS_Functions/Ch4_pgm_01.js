@@ -14,6 +14,20 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directorss);
 console.log("------------------------------");
 
+var movie2;
+
+movie2 = {
+  title: "Attack on Titan",
+  actors: "Eren Yeager",
+  directors: "Yuichiro Hayashi"
+};
+
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("------------------------------");
+
 
 
 /* Further Adventures

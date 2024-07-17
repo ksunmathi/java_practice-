@@ -12,6 +12,7 @@ player = {
 console.log(player.name);
 console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
+
 console.log("Items: " + player.items);
 
 var player1;
